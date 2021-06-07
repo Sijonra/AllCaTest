@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- === Links === -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- === /Links === -->
+
+    <title>Document</title>
+
+</head>
+
+
+<body id="body">
+
+    <!-- === header === -->
+
+    <header class="section-header section-outer">
+        <div class="section-inner">
+            <div class="header-logo">
+                <a href="index.html">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16" fill="#CC0000"/>
+                        <g clip-path="url(#clip0)">
+                        <path d="M15.5712 25.5999L15.7856 21.4883C15.7887 21.4207 15.7766 21.3533 15.7502 21.2909C15.7238 21.2286 15.6837 21.173 15.633 21.1282C15.5823 21.0834 15.5221 21.0506 15.457 21.0321C15.3919 21.0136 15.3234 21.01 15.2567 21.0214L11.1642 21.7408L11.7169 20.2163C11.7393 20.1556 11.7422 20.0895 11.7251 20.0271C11.708 19.9647 11.6718 19.9092 11.6216 19.8685L7.13843 16.2381L8.14845 15.7665C8.21667 15.7342 8.27077 15.6782 8.30059 15.6089C8.33042 15.5396 8.33392 15.4618 8.31044 15.3901L7.42428 12.6649L10.0065 13.2128C10.0765 13.2274 10.1493 13.2173 10.2127 13.1843C10.2761 13.1513 10.3261 13.0974 10.3543 13.0318L10.8546 11.855L12.8698 14.018C12.9159 14.0666 12.9765 14.0989 13.0425 14.1102C13.1086 14.1214 13.1765 14.111 13.236 14.0804C13.2956 14.0498 13.3437 14.0007 13.373 13.9405C13.4023 13.8803 13.4113 13.8122 13.3987 13.7464L12.4268 8.73439L13.9847 9.63484C14.0213 9.65628 14.0618 9.66998 14.1039 9.67509C14.146 9.6802 14.1887 9.67661 14.2294 9.66455C14.27 9.65249 14.3077 9.63222 14.3402 9.60498C14.3727 9.57774 14.3993 9.54412 14.4182 9.5062L16 6.3999L17.5817 9.5062C17.6007 9.54412 17.6272 9.57774 17.6597 9.60498C17.6922 9.63222 17.7299 9.65249 17.7706 9.66455C17.8112 9.67661 17.8539 9.6802 17.896 9.67509C17.9381 9.66998 17.9787 9.65628 18.0153 9.63484L19.5732 8.73439L18.6013 13.7464C18.5886 13.8122 18.5976 13.8803 18.6269 13.9405C18.6563 14.0007 18.7043 14.0498 18.7639 14.0804C18.8235 14.111 18.8914 14.1214 18.9574 14.1102C19.0234 14.0989 19.084 14.0666 19.1301 14.018L21.1454 11.855L21.6456 13.0318C21.6738 13.0974 21.7238 13.1513 21.7872 13.1843C21.8506 13.2173 21.9235 13.2274 21.9934 13.2128L24.5756 12.6649L23.6895 15.3901C23.666 15.4618 23.6695 15.5396 23.6993 15.6089C23.7292 15.6782 23.7833 15.7342 23.8515 15.7665L24.8615 16.2381L20.3783 19.8685C20.3281 19.9092 20.2919 19.9647 20.2748 20.0271C20.2578 20.0895 20.2606 20.1556 20.283 20.2163L20.8357 21.7408L16.7432 21.0214C16.6765 21.01 16.608 21.0136 16.5429 21.0321C16.4778 21.0506 16.4177 21.0834 16.3669 21.1282C16.3162 21.173 16.2761 21.2286 16.2497 21.2909C16.2233 21.3533 16.2112 21.4207 16.2144 21.4883L16.4287 25.5999H15.5712Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0">
+                        <rect width="19.2" height="19.2" fill="white" transform="translate(6.3999 6.3999)"/>
+                        </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="index.html" class="logo-title">All.ca</a>
+            </div>
+            <ul class="header-links">
+                <li><a href="index.html" class="header-links__item">Home</a></li>
+                <li><a href="#" class="header-links__item">.CA Registration</a></li>
+                <li><a href="transfers.html" class="header-links__item">Transfers</a></li>
+                <li><a href="tldlp.html" class="header-links__item">TLDs</a></li>
+                <li><a href="#" class="header-links__item">Support</a></li>
+                <li><a href="#" class="header-links__item">About</a></li>
+                <li><button class="header-links__item button-sign-in">Sign in/ Register</button></li>
+            </ul>
+            <div class="header-burger ">
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- === /header === -->
+
+    <!-- === promo === -->
+
+    <section class="section-promo section-outer">
+        <div class="section-inner">
+            <h1 class="promo-title">
+                Choose to be Canadian
+            </h1>
+            <h3 class="promo-subtitle">
+                Register .CA
+            </h3>
+            <div class="promo-form-group">
+                <input type="text" class="input-primary" placeholder="Start here by typing a domain name or a keyword">
+                <a href="search.html">
+                    <button class="button-search">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.7812 13.8344L12.6656 10.7188C12.525 10.5781 12.3344 10.5 12.1344 10.5H11.625C12.4875 9.39688 13 8.00937 13 6.5C13 2.90937 10.0906 0 6.5 0C2.90937 0 0 2.90937 0 6.5C0 10.0906 2.90937 13 6.5 13C8.00937 13 9.39688 12.4875 10.5 11.625V12.1344C10.5 12.3344 10.5781 12.525 10.7188 12.6656L13.8344 15.7812C14.1281 16.075 14.6031 16.075 14.8938 15.7812L15.7781 14.8969C16.0719 14.6031 16.0719 14.1281 15.7812 13.8344ZM6.5 10.5C4.29063 10.5 2.5 8.7125 2.5 6.5C2.5 4.29063 4.2875 2.5 6.5 2.5C8.70938 2.5 10.5 4.2875 10.5 6.5C10.5 8.70938 8.7125 10.5 6.5 10.5Z" fill="white"/>
+                        </svg> 
+                        Search Domains
+                    </button>
+                </a>    
+            </div>
+            <p class="description">
+                We are the Canadian Internet Registration Authority. We manage .CA domains on behalf of all Canadians and work every day to build a better online Canada.
+            </p>
+            <div class="promo-image">
+                <img src="./img/section-promo-image.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- === /promo === -->
+    
+    <!-- === offers === -->
+
+    <section class="section-offers section-outer">
+        <div class="section-inner">
+            <h2 class="offers-title ta-c">Popular Domain Name Promos & Offers</h2>
+            <h4 class="offers-subtitle ta-c">Register cheap domains at the best prices you can find on the internet</h4>
+            <div class="offers-cards">
+
+                <a href="tld.html">
+                    <div class="offers-card offers-card--active">
+                        <div class="tag-wrapper">
+                            <h5 class="offers-card__tag ta-c">popular</h5>
+                        </div>
+                        <p class="offers-card__domain-name ta-c">.com</p>
+                        <p class="oofers-card__price ta-c">$8.49</p>
+                    </div>
+                </a>
+                
+                <a href="tld.html">
+                    <div class="offers-card offers-card--active">
+                        <div class="tag-wrapper">
+                            <h5 class="offers-card__tag ta-c">new</h5>
+                        </div>
+                        <p class="offers-card__domain-name ta-c">.net</p>
+                        <p class="oofers-card__price ta-c">$8.49</p>
+                    </div>
+                </a>
+                
+                <a href="tld.html">
+                    <div class="offers-card offers-card--active">
+                        <div class="tag-wrapper">
+                            <h5 class="offers-card__tag ta-c">ending soon</h5>
+                        </div>
+                        <p class="offers-card__domain-name ta-c">.xyz</p>
+                        <p class="oofers-card__price ta-c">$8.49</p>
+                    </div>
+                </a>
+                
+                <a href="tld.html">
+                    <div class="offers-card">
+                        <div class="tag-wrapper">
+                            <h5 class="offers-card__tag ta-c">popular</h5>
+                        </div>
+                        <p class="offers-card__domain-name ta-c">.org</p>
+                        <p class="oofers-card__price ta-c">$8.49</p>
+                    </div>
+                </a>
+                
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.art</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.info</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.fund</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.zone</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.today</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.rocks</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.expert</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+
+                <div class="offers-card">
+                    <div class="tag-wrapper">
+                        <h5 class="offers-card__tag ta-c    ">popular</h5>
+                    </div>
+                    <p class="offers-card__domain-name ta-c">.city</p>
+                    <p class="oofers-card__price ta-c">$8.49</p>
+                </div>
+            </div>
+            <div class="view-more-link ta-c">
+                <a href="" class="view-more-link__link">View All Domain Extensions</a>
+                <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.86865 5.26567L1.28115 9.89067C1.13428 10.0375 0.896777 10.0375 0.749902 9.89067L0.131152 9.27192C-0.0157227 9.12504 -0.0157227 8.88754 0.131152 8.74067L3.83428 5.00004L0.131152 1.25942C-0.0157227 1.11255 -0.0157227 0.875048 0.131152 0.728173L0.749902 0.109424C0.896777 -0.0374511 1.13428 -0.0374511 1.28115 0.109424L5.86865 4.73442C6.01553 4.88129 6.01553 5.11879 5.86865 5.26567Z" fill="#0088CC"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- === /offers === -->
+
+    <!-- === about === -->
+
+    <section class="section-about section-outer">
+        <div class="section-inner">
+            <div class="about-logo ta-c">
+                <svg width="60" height="64" viewBox="0 0 60 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.5708 64L29.2855 50.2948C29.2959 50.0694 29.2556 49.8445 29.1676 49.6368C29.0796 49.429 28.9461 49.2437 28.7769 49.0943C28.6078 48.945 28.4073 48.8355 28.1902 48.7739C27.9732 48.7123 27.7451 48.7002 27.5227 48.7385L13.881 51.1365L15.7232 46.0546C15.7979 45.8524 15.8075 45.6318 15.7505 45.4239C15.6936 45.216 15.573 45.0312 15.4056 44.8953L0.46167 32.794L3.82842 31.2218C4.0558 31.1144 4.23614 30.9276 4.33556 30.6966C4.43498 30.4656 4.44665 30.2062 4.36837 29.9672L1.41452 20.8834L10.022 22.7097C10.2552 22.7583 10.498 22.7248 10.7093 22.6148C10.9206 22.5048 11.0873 22.3251 11.1813 22.1062L12.8488 18.1836L19.5664 25.3935C19.72 25.5556 19.922 25.6634 20.142 25.7009C20.3621 25.7384 20.5884 25.7036 20.787 25.6016C20.9856 25.4996 21.1458 25.336 21.2436 25.1353C21.3413 24.9346 21.3713 24.7076 21.3292 24.4883L18.0895 7.78164L23.2825 10.7831C23.4044 10.8546 23.5397 10.9002 23.68 10.9173C23.8203 10.9343 23.9626 10.9224 24.0981 10.8822C24.2336 10.842 24.3594 10.7744 24.4677 10.6836C24.576 10.5928 24.6645 10.4807 24.7277 10.3543L30.0001 0L35.2726 10.3543C35.3358 10.4807 35.4243 10.5928 35.5326 10.6836C35.6409 10.7744 35.7667 10.842 35.9022 10.8822C36.0377 10.9224 36.1799 10.9343 36.3202 10.9173C36.4605 10.9002 36.5958 10.8546 36.7177 10.7831L41.9108 7.78164L38.6711 24.4883C38.6289 24.7076 38.659 24.9346 38.7567 25.1353C38.8545 25.336 39.0146 25.4996 39.2132 25.6016C39.4118 25.7036 39.6381 25.7384 39.8582 25.7009C40.0783 25.6634 40.2803 25.5556 40.4339 25.3935L47.1515 18.1836L48.819 22.1062C48.9129 22.3251 49.0797 22.5048 49.291 22.6148C49.5023 22.7248 49.7451 22.7583 49.9783 22.7097L58.5857 20.8834L55.6319 29.9672C55.5536 30.2062 55.5653 30.4656 55.6647 30.6966C55.7641 30.9276 55.9445 31.1144 56.1718 31.2218L59.5386 32.794L44.5947 44.8953C44.4273 45.0312 44.3067 45.216 44.2497 45.4239C44.1927 45.6318 44.2023 45.8524 44.2771 46.0546L46.1192 51.1365L32.4775 48.7385C32.2552 48.7002 32.0271 48.7123 31.81 48.7739C31.593 48.8355 31.3925 48.945 31.2233 49.0943C31.0542 49.2437 30.9207 49.429 30.8327 49.6368C30.7447 49.8445 30.7044 50.0694 30.7148 50.2948L31.4294 64H28.5708Z" fill="#CC0000"/>
+                </svg>
+            </div>
+            <h2 class="about-title ta-c">We are Canada’s internet. </h2>
+            <p class="description ta-c">
+                We are the Canadian Internet Registration Authority. We manage .CA domains on behalf of all Canadians and work every day to build a better online Canada.
+            </p>
+        </div>
+    </section>
+
+    <!-- === /about === -->
+
+    <!-- === description === -->
+
+    <section class="section-description section-outer">
+        <div class="section-inner">
+            <div class="description-left">
+                <h3 class="title-primary">
+                    Trust the experts in domain registration! 
+                </h3>
+                <p class="description">
+                    Among the first Dot-Ca registrars certified in 2000 and ICANN accredited since 2005, our secure and robust system will protect one of your most valuable assets: Your Domain Name. 
+                </p>
+            </div>
+            <div class="description-right">
+                <h3 class="title-primary">
+                    Trust the experts in domain registration! 
+                </h3>
+                <p class="description">
+                    Among the first Dot-Ca registrars certified in 2000 and ICANN accredited since 2005, our secure and robust system will protect one of your most valuable assets: Your Domain Name. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- === /description === -->
+
+    <!-- === features === -->
+
+    <section class="section-features section-outer">
+        <div class="section-inner">
+            <h2 class="features-title ta-c">FEATURES</h2>
+            <h4 class="features-subtitle ta-c">Why Register with All.CA</h4>
+            <ul class="features-cards">
+                <li class="features-card">
+                    <div class="features-card__icon ta-c">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" rx="20" fill="#89C1C2"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M56.625 42.375H49.3805L54.5031 37.2524C55.4308 36.3247 55.4308 34.821 54.5031 33.894L46.106 25.4969C45.6421 25.033 45.0343 24.8015 44.4264 24.8015C43.8186 24.8015 43.2107 25.033 42.7468 25.4969L37.625 30.6195V23.375C37.625 22.0636 36.5614 21 35.25 21H23.375C22.0636 21 21 22.0636 21 23.375V50.6875C21 55.2787 24.7213 59 29.3125 59H56.625C57.9364 59 59 57.9364 59 56.625V44.75C59 43.4386 57.9364 42.375 56.625 42.375ZM29.3125 52.4688C30.2959 52.4688 31.0938 51.6709 31.0938 50.6875C31.0938 49.7034 30.2959 48.9062 29.3125 48.9062C28.3291 48.9062 27.5312 49.7034 27.5312 50.6875C27.5312 51.6709 28.3291 52.4688 29.3125 52.4688ZM32.6323 54.0756C33.5125 53.2132 34.0625 52.0145 34.0625 50.6875V43.5618H24.5625V50.6868C24.5625 53.3059 26.6933 55.4368 29.3125 55.4368H29.314C29.7281 55.4368 30.123 55.367 30.5059 55.2668C30.8696 55.1733 31.2147 55.0271 31.5465 54.8534C31.5643 54.8439 31.5822 54.8345 31.6002 54.8251L31.6003 54.825L31.6004 54.825C31.6481 54.7999 31.6961 54.7748 31.7424 54.7473C32.0608 54.5602 32.3614 54.3405 32.6323 54.0756ZM34.0625 40H24.5625V34.0625H34.0625V40ZM24.5625 30.5H34.0625V24.5625H24.5625V30.5ZM37.625 35.6575L44.4271 28.8553L51.1447 35.5729L37.625 49.0925V35.6575ZM36.318 55.4375H55.4375V45.9375H45.818L36.318 55.4375Z" fill="white"/>
+                        </svg>
+                    </div>
+                    <h4 class="features-card__title ta-c">WHOIS</h4>
+                    <p class="features-card__subtitle ta-c">Life isn't about finding yourself. Life is about creating yourself.</p>
+                </li>
+                <li class="features-card">
+                    <div class="features-card__icon ta-c">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" rx="20" fill="#FC9374"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M42.182 21C42.2075 21 42.2337 21.0008 42.26 21.003C51.2193 21.621 58.3786 28.7805 58.9974 37.74C59.0439 38.4233 58.4679 39 57.7824 39H41V22.2172C41 21.558 41.5325 21 42.182 21ZM54.812 42.5812H37.419V25.1882C37.419 24.5409 36.8928 24 36.2653 24C36.214 24 36.1627 24.0037 36.1107 24.011C27.383 25.2439 20.7099 32.864 21.0097 41.9999C21.308 51.0911 28.9098 58.6921 38.0003 58.9905C38.1975 58.9971 38.3954 59 38.5918 59C47.4638 59 54.7827 52.4281 55.9892 43.8888C56.0867 43.1961 55.5113 42.5812 54.812 42.5812ZM39.4216 56C39.2601 56 39.0963 55.997 38.9333 55.9917C31.4989 55.7477 25.252 49.502 25.0079 42.0691C24.7983 35.6657 28.7829 30.0433 34.6145 28V46.3878H53C50.9998 52.0245 45.5851 56 39.4216 56Z" fill="white"/>
+                        </svg>       
+                    </div>
+                    <h4 class="features-card__title ta-c">Maas Marketing</h4>
+                    <p class="features-card__subtitle ta-c">Better a diamond with a flaw than a pebble without one.</p>
+                </li>
+                <li class="features-card">
+                    <div class="features-card__icon ta-c">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" rx="20" fill="#57AFFF"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M35.4203 58.9771L32.4449 58.1385C32.1228 58.0494 31.9311 57.7154 32.0231 57.4037L42.8205 21.4305C42.9125 21.1188 43.2576 20.9333 43.5797 21.0223L46.5551 21.861C46.8772 21.9501 47.0689 22.284 46.9769 22.5958L36.1795 58.5689C36.0875 58.8881 35.75 59.0662 35.4203 58.9771ZM29.7269 49.8155L31.8303 47.7007C32.07 47.4601 32.0468 47.0808 31.7916 46.8621L23.587 40L31.7916 33.1379C32.0546 32.9192 32.07 32.5399 31.8303 32.2993L29.7269 30.1845C29.495 29.9512 29.1006 29.9366 28.8531 30.1554L18.1972 39.577C17.9343 39.8104 17.9343 40.1969 18.1972 40.4302L28.8531 49.8446C29.1006 50.0634 29.4872 50.0488 29.7269 49.8155ZM60.8027 40.4315L50.1486 49.8447C49.901 50.0634 49.5142 50.0488 49.2743 49.8155L47.1698 47.701C46.9299 47.4604 46.9454 47.0812 47.2085 46.8625L55.4176 40.0013L47.2085 33.1401C46.9532 32.9214 46.9299 32.5422 47.1698 32.3016L49.2743 30.1871C49.5064 29.9465 49.901 29.9392 50.1486 30.1579L60.8027 39.5784C61.0658 39.8117 61.0658 40.1982 60.8027 40.4315Z" fill="white"/>
+                        </svg>    
+                    </div>
+                    <h4 class="features-card__title ta-c">Clean Code</h4>
+                    <p class="features-card__subtitle ta-c">Life isn't about finding yourself. Life is about creating yourself.</p>
+                </li>
+                <li class="features-card">
+                    <div class="features-card__icon ta-c">
+                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="80" height="80" rx="20" fill="#876AFF"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M42.413 55.4375H49.8371C51.3133 55.4375 52.5097 56.6339 52.509 58.1094C52.509 58.6014 52.1104 59 51.6183 59H29.6422C29.1501 59 28.7515 58.6014 28.7515 58.1094C28.7515 56.6339 29.9479 55.4375 31.4242 55.4375H38.849V53.0298C35.3206 52.9074 31.8212 51.7511 28.8503 49.5453L26.8679 51.5269C26.4033 51.9908 25.6514 51.9908 25.1876 51.5269L24.3481 50.6882C23.8843 50.2244 23.8843 49.4725 24.3481 49.0087L28.73 44.6275C28.7596 44.6613 28.789 44.6952 28.8185 44.729C28.9948 44.9315 29.1711 45.1339 29.3631 45.3259C32.0558 48.0178 35.6353 49.5 39.4428 49.5C43.2502 49.5 46.8297 48.0171 49.5224 45.3259C52.2151 42.6348 53.6979 39.0567 53.6979 35.25C53.6979 31.4433 52.2151 27.8645 49.5224 25.1733C49.3399 24.9914 49.1475 24.8233 48.9553 24.6553C48.9115 24.617 48.8677 24.5787 48.824 24.5402L52.0176 21.3481C52.4822 20.8842 53.2341 20.8842 53.6979 21.3481L54.5374 22.1868C55.0012 22.6506 55.0012 23.4025 54.5374 23.8663L53.7432 24.6605C58.9252 31.6326 58.37 41.52 52.0429 47.8449C49.3213 50.5665 45.9384 52.2127 42.413 52.8005V55.4375ZM39.4428 47.125C46.0037 47.125 51.3222 41.8087 51.3222 35.25C51.3222 28.695 46.0074 23.375 39.4428 23.375C32.8818 23.375 27.5633 28.6913 27.5633 35.25C27.564 41.8043 32.8781 47.125 39.4428 47.125ZM39.4428 26.9375C44.0354 26.9375 47.7582 30.6588 47.7582 35.25C47.7582 39.8412 44.0354 43.5625 39.4428 43.5625C34.8501 43.5625 31.1273 39.8412 31.1273 35.25C31.1273 30.6588 34.8501 26.9375 39.4428 26.9375Z" fill="white"/>
+                        </svg>          
+                    </div>
+                    <h4 class="features-card__title ta-c">Global Reach</h4>
+                    <p class="features-card__subtitle ta-c">Better a diamond with a flaw than a pebble without one.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- === /features === -->
+
+    <!-- === support-promo === -->
+
+    <section class="section-support-promo section-outer">
+        <div class="section-inner">
+            <h3 class="title-primary">
+                Unparalleled Personal Support
+            </h3>
+            <p class="description">
+                When you contact us, you get quick and direct access to our knowledgable staff with no long hold times. Get the answers you want without the hassle!
+            </p>
+        </div>
+        <div class="support-promo-image">
+            <img src="./img/support.png" alt="">
+        </div>
+    </section>
+
+    <!-- === /support-promo === -->
+
+    <!-- === reviews === -->
+
+    <section class="section-reviews section-outer">
+        <div class="section-inner">
+            <h1 class="reviews-title ta-c">We Are Loved By Users And Clients Worldwide</h1>
+            <p class="description ta-c">Only those who risk going too far can possibly find out how far one can go.</p>
+        </div>
+        <ul class="reviews-cards">
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+            <li class="review-card">
+                <div class="review-card__rating">
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                    </svg>
+                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.4">
+                        <path d="M9.37346 0.695722L6.81029 5.86696L1.07553 6.69889C0.0471213 6.8473 -0.365027 8.10887 0.380766 8.83144L4.52973 12.8544L3.54842 18.5373C3.37179 19.5645 4.45908 20.3339 5.36973 19.8535L10.5 17.1702L15.6303 19.8535C16.5409 20.33 17.6282 19.5645 17.4516 18.5373L16.4703 12.8544L20.6192 8.83144C21.365 8.10887 20.9529 6.8473 19.9245 6.69889L14.1897 5.86696L11.6265 0.695722C11.1673 -0.226039 9.83664 -0.237757 9.37346 0.695722Z" fill="#FFA900"/>
+                        </g>
+                        <path d="M11 0C10.5312 0 10.0624 0.2305 9.81982 0.695408L7.13459 5.86799L1.12675 6.69623C0.0493652 6.84469 -0.38241 8.10658 0.398897 8.82933L4.74543 12.8533L3.7174 18.5377C3.53235 19.5574 4.66319 20.3348 5.62543 19.8543L11 17.1742V0Z" fill="#FFA900"/>
+                    </svg>
+                </div>
+                <p class="review-card__description">
+                    “It’s not only about what you write but how you present it. Only those who risk going too far can possibly find out how far one can go."
+                </p>
+                <div class="review-card-author">
+                    <p class="review-card-author__name">Artem Sazonov</p>
+                    <p class="review-card-author__designer">Product Designer @Apex</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- === /reviews === -->
+
+    <!-- === footer === -->
+
+    <footer class="section-footer section-outer">
+        <div class="footer-socials">
+            <div class="footer-socials-wrapper">
+                <h3 class="footer-socials__customers">Legendary Customer Support</h3>
+                <p class="footer-socials__phone">(888) 894-9026</p>
+                <p class="footer-socials__phone">(888) 894-9026</p>
+                <div class="footer-socials-media">
+                    <a href="https://www.facebook.com/">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM23.1889 21.9224V33.3475H18.4617V21.9229H16.1V17.9857H18.4617V15.6219C18.4617 12.4099 19.7952 10.5 23.584 10.5H26.7383V14.4376H24.7667C23.2918 14.4376 23.1942 14.9878 23.1942 16.0147L23.1889 17.9853H26.7606L26.3427 21.9224H23.1889Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM20.4151 17.7957L20.3711 17.0691C20.2389 15.1857 21.3993 13.4655 23.2354 12.7982C23.9111 12.5609 25.0569 12.5312 25.806 12.7388C26.0998 12.8278 26.658 13.1244 27.0546 13.3913L27.7743 13.8807L28.5676 13.6286C29.0082 13.4951 29.5958 13.2727 29.8602 13.1244C30.1099 12.9909 30.3302 12.9168 30.3302 12.9613C30.3302 13.2134 29.7867 14.0735 29.3314 14.548C28.7144 15.2154 28.8907 15.2747 30.1393 14.8298C30.8884 14.5777 30.9031 14.5777 30.7562 14.8595C30.6681 15.0078 30.2127 15.5268 29.728 16.0013C28.9054 16.817 28.8613 16.9059 28.8613 17.5881C28.8613 18.641 28.3619 20.8358 27.8625 22.037C26.9371 24.291 24.954 26.6193 22.971 27.7908C20.1801 29.4369 16.4638 29.8521 13.335 28.8882C12.2921 28.562 10.5 27.7315 10.5 27.5832C10.5 27.5387 11.0435 27.4794 11.7045 27.4646C13.0853 27.4349 14.466 27.0493 15.6412 26.3672L16.4344 25.8926L15.5237 25.5812C14.231 25.1363 13.0706 24.1131 12.7768 23.1492C12.6887 22.8378 12.718 22.8229 13.5406 22.8229L14.3926 22.8081L13.6728 22.467C12.8209 22.037 12.0424 21.3103 11.6604 20.5688C11.3813 20.035 11.0288 18.6855 11.1316 18.5817C11.161 18.5372 11.4695 18.6262 11.822 18.7448C12.8356 19.1155 12.9678 19.0266 12.3802 18.4037C11.2785 17.2767 10.9407 15.6009 11.4695 14.0142L11.7192 13.3024L12.6887 14.2663C14.6717 16.209 17.0073 17.3657 19.6807 17.7067L20.4151 17.7957Z" fill="white"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 0C9.40202 0 0 9.40202 0 21C0 32.598 9.40202 42 21 42C32.598 42 42 32.598 42 21C42 9.40202 32.598 0 21 0ZM10.0814 17.3931H14.8405V31.6921H10.0814V17.3931ZM15.1539 12.9699C15.123 11.5679 14.1204 10.5 12.4924 10.5C10.8644 10.5 9.8 11.5679 9.8 12.9699C9.8 14.3428 10.8329 15.4414 12.4306 15.4414H12.461C14.1204 15.4414 15.1539 14.3428 15.1539 12.9699ZM26.524 17.0574C29.6557 17.0574 32.0035 19.1015 32.0035 23.4935L32.0033 31.6921H27.2444V24.0422C27.2444 22.1207 26.5557 20.8095 24.8329 20.8095C23.5181 20.8095 22.735 21.6934 22.3911 22.5472C22.2652 22.8531 22.2343 23.2794 22.2343 23.7068V31.6925H17.4747C17.4747 31.6925 17.5374 18.7353 17.4747 17.3935H22.2343V19.4189C22.866 18.4452 23.9972 17.0574 26.524 17.0574Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="footer-links">
+            <div class="footer-links-wrapper">
+                <ul class="footer-links-domains">
+                    <li><a href="" class="footer-links-domains__item footer-links-domains__item--title">My Domains</a></li>
+                    <li><a href="" class="footer-links-domains__item">Manage My Domains</a></li>
+                    <li><a href="" class="footer-links-domains__item">Domain Registration</a></li>
+                    <li><a href="" class="footer-links-domains__item">WHOIS</a></li>
+                </ul>
+                <ul class="footer-links-transfers">
+                    <li><a href="" class="footer-links-transfers__item footer-links-transfers__item--title">Transfers </a></li>
+                    <li><a href="" class="footer-links-transfers__item">Transfer Into Portfolio</a></li>
+                    <li><a href="" class="footer-links-transfers__item">Transfer To Another Registrar</a></li>
+                    <li><a href="" class="footer-links-transfers__item">Get Transfer Status</a></li>
+                </ul>
+                <ul class="footer-links-policy">
+                    <li><a href="" class="footer-links-policy__item">Universal TOS</a></li>
+                    <li><a href="" class="footer-links-policy__item">Refund Policy</a></li>
+                    <li><a href="" class="footer-links-policy__item">Registrant Rights</a></li>
+                    <li><a href="" class="footer-links-policy__item">Registration Agreement</a></li>
+                    <li><a href="" class="footer-links-policy__item">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-inner">
+            <div class="footer-copyright">
+                <div class="footer-copyright-logos">
+                    <img src="./img/footer-copyright1.png" alt="">
+                    <img src="./img/footer-copyright2.png" alt="">
+                    <img src="./img/footer-copyright3.png" alt="">
+                </div>
+                <p class="footer-copyright__description ta-c">
+                    Epik ® is a registered trademark of Epik Inc. Copyright © 2020 by Epik Inc. All rights reserved.
+                    WHOIS Privacy services provided by Anonymize.com
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+
+    <!-- === /footer === -->
+
+    <!-- === Scripts === -->
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="./js/nouislider.min.js"></script>
+
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
