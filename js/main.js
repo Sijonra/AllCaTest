@@ -1,7 +1,7 @@
 // === Burger ===
 
 const burgerButton = document.querySelector('.header-burger');
-const headerLinks = document.querySelector('.header-links');
+const headerLinks = document.querySelector('.header-links');    
 const body = document.getElementById('body');
 
 burgerButton.addEventListener('click', ()=>{
@@ -11,6 +11,32 @@ burgerButton.addEventListener('click', ()=>{
 });
 
 // === /Burger ===
+
+// === Alert ===
+
+const links = document.querySelectorAll('a');
+
+links.forEach(element => {
+    if(element.getAttribute('href') == "#" ||element.getAttribute('href') == ""){
+        element.addEventListener('click', ()=>{
+            alert("Coming Soon");
+        });
+    };
+});
+
+const array = ['.switch-buttons', '.reset-filter' ,'.input-search__button', '.button-sign-in', '.add-to-cards-item-wrapper__button'];
+const buttonsArray = document.querySelectorAll(array);
+
+buttonsArray.forEach(element => {
+    console.log(element);
+    element.addEventListener('click', ()=>{
+        alert("Coming Soon");
+    });
+});
+
+// console.log(link.getAttribute('href'));
+
+// === /Alert ===
 
 // === Slider ===
 
@@ -80,3 +106,7 @@ noUiSlider.create(document.getElementById('input-range-number-of-words'), {
         'max': 100
     },
 });
+
+// === Alert ===
+
+
